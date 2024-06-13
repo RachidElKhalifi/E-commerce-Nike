@@ -1,0 +1,980 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#bodyContainer {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+#hero {
+    max-width: 1400px;
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#body a {
+    padding: 5px;
+}
+
+a:hover,
+button:hover,
+input:hover {
+    opacity: 50%;
+}
+
+#firstRowHeader {
+    background-color: grey;
+}
+
+#boxJordanConverse {
+    width: 60%;
+}
+
+#boxConverse li {
+    width: 7%;
+}
+
+#boxJordan li {
+    padding: 5px 0px;
+    width: 5%;
+}
+
+#boxJordanConverse ul {
+    padding-left: 10px;
+}
+
+#boxLinkTrovaUnNegozio {
+    width: 40%;
+    padding-top: 1rem;
+}
+
+#firstRowHeader span {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#firstRowHeader li {
+    font-size: 1rem;
+}
+
+#secondRowHeader ul {
+    padding: 5px 10px;
+}
+
+#boxLogoNike {
+    width: 25%;
+}
+
+#boxLinkNovitàInEvidenza {
+    width: 50%;
+    padding-top: .3rem;
+}
+
+#containerInput_carrello {
+    width: 25%;
+}
+
+#boxLogoNike img {
+    width: 25%;
+}
+
+#boxLinkNovitàInEvidenza li {
+    margin-right: 4%;
+    font-size: large;
+}
+
+#boxValigiaCuore {
+    width: 20%;
+}
+
+#boxInput {
+    width: 70%;
+    padding-top: .5rem;
+    margin-top: 10px;
+}
+
+#boxInput input {
+    list-style: none;
+    background-color: rgb(139, 139, 139);
+    border: 2px solid black;
+    border-left: 0;
+    height: 2rem;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#boxInput button {
+    background-color: rgb(139, 139, 139);
+    padding: 2px;
+    border: 2px solid black;
+    border-right: 0;
+    display: block;
+}
+
+#boxInput img {
+    width: 1.3rem;
+    height: 1.48rem;
+    margin: 0;
+    padding-top: 2px;
+    display: block;
+}
+
+#valigia img {
+    width: 40%;
+    padding-top: .5rem;
+}
+
+#cuore img {
+    width: 40%;
+    padding-top: .5rem;
+}
+
+#thirdRowHeader {
+    background-color: grey;
+    font-size: 0.8rem;
+}
+
+#thirdRowHeader li {
+    font-size: 0.6rem;
+}
+
+#boxMaglie {
+    width: 50.5%;
+    height: 45px;
+    margin: 0 auto;
+}
+
+#boxMaglie ul {
+    padding-left: 5px;
+    margin-top: 0;
+}
+
+#sconto {
+    padding-top: 20px;
+}
+
+.clearBoth {
+    clear: both;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.testoChiaro {
+    color: white;
+}
+
+.linkRadius {
+    background-color: white;
+    margin-right: 5px;
+    border-radius: 20px;
+}
+
+.grey {
+    color: grey;
+}
+
+.overflowAuto {
+    overflow: auto;
+}
+
+.displayNone {
+    display: none;
+}
+
+.displayInline {
+    display: inline
+}
+
+.displayBlock {
+    display: block;
+}
+
+.clearBoth {
+    clear: both;
+}
+
+.paddingZero {
+    padding: 0;
+}
+
+#hero {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+#regala {
+    color: white;
+    font-size: 2rem;
+}
+
+#ispirazione {
+    color: white;
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+}
+
+#hero .absolute {
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+}
+
+#boxImgMembership .absolute {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.frecceDiScorrimento {
+    border-radius: 100%;
+    background-color: rgb(221, 218, 218);
+    margin-right: .7rem;
+    padding: 0 .4rem;
+}
+
+.boxImgBody {
+    padding: 20px 0 60px 0;
+}
+
+.boxImgColSx {
+    width: 33.3333%;
+    padding-right: 8px;
+}
+
+.boxImgColCenter {
+    width: 33.3333%;
+    padding-right: 8px;
+}
+
+.boxImgColDx {
+    width: 33.3333%;
+    border-right: 8px solid transparent;
+}
+
+.boxImgColSx ul,
+.boxImgColDx ul,
+.boxImgColCenter ul {
+    padding-left: 0;
+}
+
+#boxVideo {
+    margin-right: 37px;
+}
+
+#boxVideo video {
+
+    width: 60px;
+
+}
+
+video {
+    width: 100%;
+}
+
+
+#containerProdotti {
+    width: 85%;
+    margin: 0 auto;
+}
+
+#boxDueModelliScarpa {
+    width: 15%;
+}
+
+#boxDueModelliScarpa h4,
+#boxDueModelliScarpa ul {
+    padding-left: 0;
+    margin: 2rem 0;
+}
+
+#containerFotoScarpe {
+    width: 45%;
+    padding-top: 2rem;
+}
+
+#boxMiniFoto img {
+    padding-bottom: .02rem;
+    width: 100%;
+    height: 48px;
+}
+
+#boxMiniFoto {
+    width: 20%;
+    padding-right: 8px;
+}
+
+#boxMiniFoto2 img {
+    padding-bottom: .02rem;
+    width: 100%;
+    height: 48px;
+}
+
+#boxMiniFoto2 {
+    width: 20%;
+    padding-right: 8px;
+}
+
+#boxImgZoom {
+    width: 80%;
+    height: 553px;
+}
+
+#boxImgZoom img {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+
+}
+
+#frecceFotoScarpa {
+    position: absolute;
+    bottom: 3rem;
+    right: 2rem;
+}
+
+#boxTaglie {
+    width: 40%;
+    padding: 1.2rem;
+}
+
+#boxTaglie h4 {
+    padding: 0;
+    margin: .3rem 0;
+}
+
+#seleziona-guidaTaglie {
+    padding: .3rem 0;
+    font-size: .8em;
+}
+
+#boxTaglieDisponibili ul {
+    padding-left: 0;
+    border: 1px solid grey;
+    margin: 2px 1px;
+}
+
+#boxTaglieDisponibili a {
+    display: block;
+    padding: 0.8rem 1.5rem;
+}
+
+#boxTaglieDisponibili a:hover {
+    background-color: black;
+    color: white;
+}
+
+#aggiungi img {
+    width: 7%;
+}
+
+#aggiungi li {
+    text-align: center;
+    display: block;
+    width: 65%;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 1rem 2rem;
+    padding: .5rem;
+
+}
+
+#aggiungi li:hover a {
+    opacity: 100%;
+    color: white;
+}
+
+#aggiungi li:hover {
+    background-color: black;
+}
+
+#boxInSovraimpressione {
+    display: none;
+    width: 30%;
+    position: absolute;
+    top: 250px;
+    right: 0;
+    background-color: white;
+}
+
+#boximgScarpaAggiunta {
+    width: 30%;
+    height: 220px;
+    margin-top: 2rem;
+}
+
+#boxInSovraimpressione h1 {
+    width: 80%;
+    font-size: 1rem;
+    padding-right: 4rem;
+}
+
+#boxInSovraimpressione h4 {
+    padding: 0;
+    margin: 3px;
+
+}
+
+#boxDescrizioneScarpaAggiunta {
+    width: 70%;
+    height: 150px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+#boxInSovraimpressione a {
+    padding: .5rem;
+    font-size: .8rem;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 2rem 0 0 1rem;
+    border-radius: 20px;
+}
+
+#boxInSovraimpressione :first-child a {
+    margin-top: 0;
+}
+
+
+/* gestiamo il carrello++++++++++++++++++++++++++ */
+
+
+#mainCarrello {
+    width: 85%;
+    margin: 0 auto;
+}
+
+#boxSpedizione a {
+    text-decoration: underline;
+}
+
+#boxSpedizione {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+#boxSpedizione h2 {
+    color: orangered;
+}
+
+#containerSpedizione {
+    width: 70%;
+}
+
+#boxDescrizionePrimaScarpa {
+    margin-bottom: 50px;
+}
+
+#boxCarrelloImmagineRitiro {
+    width: 25%;
+}
+
+#boxCarrelloImmagineRitiro img {
+    width: 90%;
+}
+
+#boxCarrelloImmagineRitiro a {
+    font-size: 1.3em;
+    font-weight: 540;
+    ;
+    text-decoration: underline;
+}
+
+#boxCarrelloImmagineRitiro h4 {
+    font-size: 1.3em;
+    font-weight: 540;
+    margin: 5px 5px 5px 0;
+}
+
+#boxDescrizioneScarpaCarrello {
+    width: 75%;
+}
+
+#nomeScarpaCarrello {
+    width: 75%;
+    margin-top: 60px;
+}
+
+#prezzoScarpa1 {
+    width: 25%;
+    margin-top: 60px;
+}
+
+#prezzoScarpa2 {
+    width: 25%;
+    margin-top: 60px;
+}
+
+#colore {
+    margin-bottom: 0;
+}
+
+#boxTagliaQuantità {
+    padding-top: 0;
+    width: 100%;
+    height: 200px;
+}
+
+#boxTagliaQuantità img {
+    width: 10px;
+}
+
+#boxInputQuantita input,
+#boxInputQuantita button {
+    width: 87%;
+}
+
+#boxInputQuantita {
+    position: absolute;
+    top: 70%;
+    left: 78%;
+}
+
+#boxInputQuantita2 ul,
+#boxInputQuantita2 button {
+    padding-left: 4px;
+    border: 1px solid black;
+}
+
+#boxInputQuantita2 button {
+    width: 100%;
+    position: absolute;
+    top: 85%;
+    left: 0;
+}
+
+#boxInputQuantita2 {
+    position: absolute;
+    top: 45%;
+    left: 80%;
+}
+
+#iconeCarrello {
+    padding-top: 50px;
+}
+
+#iconeCarrello img {
+    width: 25px;
+}
+
+#buttonSceltaTaglia1>li ul {
+    position: absolute;
+    padding: 0;
+    width: 220%;
+}
+
+#buttonSceltaTaglia1 h4 {
+    margin: 0;
+    padding: 0;
+}
+
+#buttonSceltaTaglia2 li:hover ul {
+    display: block;
+    border: 1px solid black;
+}
+
+#buttonSceltaTaglia2>li ul {
+    position: absolute;
+    padding: 0;
+    width: 220%;
+}
+
+#buttonSceltaTaglia2 h4 {
+    margin: 0;
+    padding: 0;
+}
+
+#hr {
+    clear: both;
+    margin-top: 30px;
+    width: 68%;
+    border: 1px solid black;
+}
+
+#boxDescrizioneSecondaScarpa {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#boxPreferiti {
+    margin-top: 20px;
+}
+
+#boxPreferiti a {
+    text-decoration: underline;
+}
+
+#boxPreferiti h3 {
+    font-size: 1.3em;
+    font-weight: 540;
+    margin: 5px 5px 5px 0;
+}
+
+#containerRiepilogo {
+    width: 30%;
+    padding-left: 10px;
+}
+
+#containerRiepilogo img {
+    width: 20px;
+    margin-top: 20px;
+}
+
+#vaiAlPagamento button,
+#paypal button {
+    font-size: 20px;
+    width: 90%;
+    height: 40px;
+    border-radius: 20px;
+    margin: 5px 5%;
+
+}
+
+#paypal img {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+
+
+/* ---------------------stili pagina pagamento-------------------- */
+
+.hidden {
+    visibility: hidden;
+}
+
+body>h3 {
+    text-align: center;
+}
+
+#BoxOpzioniDiConsegna h3:nth-child(2) {
+    width: 35%;
+}
+
+#BoxOpzioniDiConsegna h3:first-child {
+    width: 55%;
+    margin-right: 5%;
+}
+
+#BoxOpzioniDiConsegna h5 {
+    width: 5%;
+    text-decoration: underline;
+}
+
+#boxModulo {
+    width: 55%;
+}
+
+#buttonLocation {
+    float: left;
+    width: 49%;
+    margin-left: 1.5%;
+    height: 40px;
+}
+
+#buttonSpedizione {
+    float: left;
+    width: 49%;
+    height: 40px;
+}
+
+#buttonLocation img {
+    width: 8%;
+}
+
+#buttonSpedizione img {
+    width: 8%;
+}
+
+#boxModulo input {
+    width: 49.3%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+#boxModulo input:nth-child(4) {
+    width: 99.8%;
+}
+
+#boxAggiungiAzienda {
+    font-size: small;
+    margin-top: 20px;
+}
+
+#boxModulo input:nth-child(7) {
+    width: calc(97.5%/3);
+
+}
+
+#boxModulo input:nth-child(6) {
+    width: calc(97.5%/3);
+}
+
+#boxModulo input:nth-child(8) {
+    width: calc(97.5%/3);
+}
+
+#boxModulo input:last-child{
+    border-radius: 20px;
+    width: 30%;
+    float: right;
+
+}
+#containerSxPagamento input:last-child {
+    border-radius: 20px;
+    width: 30%;
+    height: 40px;
+    margin-top: 20px;
+    float: right;  
+}
+#buttonVerifDati{
+    margin-top: 20px;
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+}
+
+#bodyPagamento hr {
+    width: 100%;
+    margin-bottom: 23px;
+}
+
+#boxDescArticoliScelti img {
+    width: 7%;
+}
+
+#boxDescArticoliScelti>h5 {
+    margin-top: 0;
+}
+
+#boxDescArticoliScelti h5 {
+    float: left;
+    width: 80%;
+    height: 40px;
+    margin: 0;
+    font-size: medium;
+}
+
+#boxDescArticoliScelti h4 {
+    float: right;
+    height: 40px;
+    margin: 0;
+    font-size: medium;
+}
+
+#boxDescArticoliScelti {
+    width: 40%;
+}
+
+#boxDescArticoliScelti hr {
+    clear: both;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#BoxDescConImg img {
+    width: 30%;
+}
+
+#boxDesc {
+    font-size: medium;
+    width: 70%;
+    float: right;
+    padding-left: 5%;
+}
+
+.false {
+    border: 3px solid red;
+}
+
+.true {
+    border: 3px solid green;
+}
+
+#containerDescConImg {
+    width: 40%;
+}
+
+footer {
+    width: 55%;
+}
+
+/* --------------gestiamo la pagina effettuaPagamento---------- */
+
+#containerSxPagamento {
+    width: 60%;
+}
+
+#containerDxDescScarpa {
+    width: 30%;
+}
+
+#containerDxDescScarpa h4 {
+    font-size: 11px
+}
+
+#containerSxPagamento>h3>a>img {
+    width: 3.5%;
+}
+
+#elencoSecondoLivello {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    border: 1px Solid black;
+    padding: 0;
+    margin-left: 40px;
+}
+
+#elencoSecondoLivello li {
+    font-weight: 500;
+}
+
+#paese {
+    font-weight: 500;
+}
+
+#linkModificaPaese {
+    text-decoration: underline;
+}
+
+#boxPossiediUnaGift {
+    margin-top: 60px;
+}
+
+#boxPossiediUnaGift img {
+    width: 3.5%;
+}
+
+#carta {
+    width: 5%;
+    margin-left: 9px;
+
+}
+#cartaDiCredito{
+    margin: 10px 5px;
+}
+
+#payPal {
+    width: 15%;
+
+}
+
+#GPlay {
+    width: 12%;
+    height: 25px;
+    margin-left: 2%;
+}
+
+#containerSxPagamento input {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 40px;
+}
+
+#boxGPlay input {
+    margin-bottom: 40px;
+}
+
+#boxNumCarta img {
+    width: 4%;
+    position: absolute;
+    top: 70%;
+    right: 50%;
+    margin-top: 4px;
+
+}
+
+#containerDatiCarta {
+    height: 200px;
+    border-radius: 15px;
+    border: 1px solid grey
+}
+
+#containerDatiCarta input {
+    width: 18%;
+    height: 35px;
+    margin-right: 3%;
+    border-radius: 8px;
+}
+
+#containerDatiCarta input:first-child {
+    width: 50%;
+    margin-left: 4%;
+}
+
+#containerDatiCarta a {
+    text-decoration: underline;
+}
+
+#containerDatiCarta h4 {
+    margin-left: 4%;
+}
+
+#containerDatiCarta h5 {
+    margin-right: 4%;
+}
+#inputCodCarta{
+    width: 50%;
+}
+#inputNumCarta{
+    width: 80%;
+}
+#boxCodPromo{
+    width: 250px;
+    height:35px ;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border: 1px solid black;
+}
+#boxCodPromo input{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 5px;
+}
+#boxCodPromo button{
+    width: 50px;
+    display: block;
+    margin-left: 40%;
+ 
+}
+#grazie{
+    font-size: 60px;
+text-align: center;
+}

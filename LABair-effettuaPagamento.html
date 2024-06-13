@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="LABair.css">
+    <script src="effettuaPagamento.js"></script>
+    <title>LABair-effettua pagamento</title>
+</head>
+<header>
+    <div class="overflowAuto" id="firstRowHeader">
+        <div class="floatLeft overflowAuto" id="boxJordanConverse">
+
+            <nav id="boxJordan">
+                <ul>
+                    <li class="floatLeft"><a href="#"><img src="MATERIALE-progetto-01-2024/jordanNoBackground.png"
+                                alt=""></a> </li>
+                </ul>
+
+            </nav>
+
+            <nav id="boxConverse">
+                <ul>
+                    <li class="floatLeft"> <a href="#"><img src="MATERIALE-progetto-01-2024/logoConverse-removebg-preview.png
+                        " alt=""></a></li>
+                </ul>
+            </nav>
+        </div>
+        <nav class="floatRight" id="boxLinkTrovaUnNegozio">
+            <ul>
+                <li> <a href="#">Trova un negozio <span>|</span></a> </li>
+
+                <li> <a href="#">Aiuto <span>|</span> </a></li>
+
+                <li> <a href="#">Unisciti a noi <span>|</span></a></li>
+
+                <li> <a href="#">Accedi </a></li>
+
+
+
+            </ul>
+        </nav>
+    </div>
+    <div class="overflowAuto" id="secondRowHeader">
+        <nav class="floatLeft" id="boxLogoNike">
+            <ul>
+                <li><a href="LABair-homePage.html"><img src="MATERIALE-progetto-01-2024/logo.png" alt=""></a> </li>
+            </ul>
+        </nav>
+        <nav class="floatLeft" id="boxLinkNovitàInEvidenza">
+            <ul>
+                <li> <a href="#">Novità e in evidenza</a> </li>
+                <li> <a href="#">Uomo</a> </li>
+                <li> <a href="#">Donna</a> </li>
+                <li> <a href="#">Bambini</a> </li>
+                <li> <a href="#">Outlet</a> </li>
+            </ul>
+
+        </nav>
+        <div class="floatRight" id="containerInput_carrello">
+            <nav class="floatRight" id="boxValigiaCuore">
+                <ul>
+
+                    <li id="cuore"> <a href="#"><img src="MATERIALE-progetto-01-2024/cuore.gif" alt=""></a> </li>
+
+                    <li id="valigia"> <a href="LABair-carrello.html"><img
+                                src="MATERIALE-progetto-01-2024/valigia-25.png" alt=""></a> </li>
+
+
+                </ul>
+            </nav>
+
+            <form class="floatRight overflowAuto" id="boxInput">
+
+                <button class="floatLeft" type="submit">
+                    <img src="MATERIALE-progetto-01-2024/logoLente.png" alt="Icona di ricerca">
+                </button>
+
+                <input class="floatLeft" type="text" placeholder=" Cerca">
+            </form>
+
+        </div>
+
+    </div>
+    <div id="thirdRowHeader">
+
+        <div class="textCenter" id="sconto">-20% sui set in fleece
+
+        </div>
+        <div class="overflowAuto" id="boxMaglie">
+            <div class="floatLeft">Maglie e pantaloni in fleece:usa FLEECE23 su modelli selezionati.*fino al 21/12 ore 9
+                CET.
+            </div>
+            <nav class="floatLeft">
+                <ul>
+                    <li><a href="#">Acquista</a></li>
+                    <li><a href="#">*Termini promo</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+</header>
+
+<body>
+    <div id="bodyContainer">
+        <div id="containerSxPagamento" class="floatLeft">
+            <h2>Pagamento</h2>
+            <h3>Paese/regione di fatturazione <a href="#"><img
+                        src="MATERIALE-progetto-01-2024/icon/icona_domanda.png"></a>
+            </h3>
+
+            <h4><span id="paese"> italia&nbsp;&nbsp;&nbsp;</span>
+                <ul class="displayInline relative">
+                    <li><a id="linkModificaPaese" href="#">modifica</a>
+                        <ul id="elencoSecondoLivello" class="displayNone">
+                            <li class="displayBlock"><a href="#">Francia</a></li>
+                            <li class="displayBlock"> <a href="#">Italia   </a></li>
+                            <li class="displayBlock"><a href="#">Spagna</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </h4>
+            <h4 id="boxPossiediUnaGift" class="relative">
+                <input type="checkbox"> Possiedi una gift card, un voucher Prodotto o un codice promozionale?<a
+                    href="#"><img src="MATERIALE-progetto-01-2024/icon/icona_domanda.png"></a>
+                <div id="boxCodPromo" class="hidden">
+                    <input type="text" placeholder="Inserisci il tuo codice promozionale">
+                    <button>invia</button>
+                </div>
+            </h4>
+            <br>
+
+            <h4> Seleziona metodo di pagamento</h4>
+
+            <input class="floatLeft" type="radio" name="tipoPagamento">
+
+            <img class="floatLeft" id="carta" src="MATERIALE-progetto-01-2024/icons8-card-50.png">
+
+            <h4 id="cartaDiCredito" class="floatLeft"> Carta di credito o debito</h4>
+
+            <div class="clearBoth">
+                <input type="radio" name="tipoPagamento"><img id="payPal"
+                    src="MATERIALE-progetto-01-2024/icon/icona_paypal.png">
+            </div>
+
+            <div id="boxGPlay">
+                <input type="radio" name="tipoPagamento"><img id="GPlay"
+                    src="MATERIALE-progetto-01-2024/icons8-playstore-64.png">
+            </div>
+
+            <div class="overflowAuto" id="containerDatiCarta">
+                <h4>Aggiungi carta</h4>
+                <div id="boxNumCarta" class="relative">
+                    <input type="number" placeholder="   Numero carta" id="inputNumCarta" class="floatLeft"><a
+                        href=""><img src="MATERIALE-progetto-01-2024/valigia-25.png"></a>
+                </div>
+                <input type="month" placeholder="   MM/AA" class="floatLeft" id="inputMeseAnnoCarta">
+
+                <input type="number" placeholder="   CVV" class="floatLeft" id="inputCodCarta">
+
+                <h5 class="floatRight"><a href="#"> Where is my CVV?</a></h5>
+
+            </div>
+
+            <button id="buttonVerifDati">Verifica dati</button>
+            <a href="LABair-thankyouPage.html">
+                <input class="hidden true" type="button" value="Salva e continua"></a>
+
+        </div>
+
+        <div id="containerDxDescScarpa" class="floatRight">
+            <div id="BoxDescConImg">
+                <img src="MATERIALE-progetto-01-2024/Scarpa/4.jpg" alt="">
+                <div id="boxDesc">
+                    <h4>Scarpa Nike Dunk Low - uomo
+
+                    </h4>
+
+                    <h4>Modello nr.:DD1873-102
+                        <br>
+                        Misura:43
+                        <br>
+                        Colore:Bianco/Nero
+                        <br>
+                        Quantità:1 @ 119,99€
+                        <br>
+                        119,99€
+                    </h4>
+                </div>
+            </div>
+
+            <div id="BoxDescConImg">
+                <img src="MATERIALE-progetto-01-2024/Scarpa_2/6.jpg" alt="">
+                <div id="boxDesc">
+                    <h4>Scarpa Nike Dunk Low - Donna
+
+                    </h4>
+
+                    <h4>Modello nr.:DD1103-120
+                        <br>
+                        Misura:42
+                        <br>
+                        Colore:Bianco/gold/olive
+                        <br>
+                        Quantità:1 @ 119,99€
+                        <br>
+                        119,99€
+                    </h4>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
